@@ -57,7 +57,7 @@ add_hook('AdminAreaViewTicketPageSidebar', 10, function($vars) {
     $tal_output .= '
 </div>
 <style>
-#tal_content li a{ padding: 0; display:inline; }
+#tal_content li a{ padding: 0; display:inline; word-break: break-all; }
 #tal_content i.fa-comment-alt{ margin-top: 4.5px; font-size: 0.8em; color: #bbb; }
 </style>';
 
